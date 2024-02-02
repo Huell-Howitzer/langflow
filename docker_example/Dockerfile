@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.13.0a3-slim
 
 RUN apt-get update && apt-get install gcc -y
 RUN pip install langflow>=0.0.33

@@ -2,7 +2,7 @@
 FROM logspace/frontend_build as frontend_build
 
 # `python-base` sets up all our shared environment variables
-FROM python:3.10-slim as langflow_build
+FROM python:3.13.0a3-slim as langflow_build
 
 # python
 ENV PYTHONUNBUFFERED=1 \
